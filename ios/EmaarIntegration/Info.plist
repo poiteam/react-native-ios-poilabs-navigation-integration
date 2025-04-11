@@ -2,20 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>MGLMapboxMetricsEnabledSettingShownInApp</key>
-  <true/>
-  <key>NSBluetoothAlwaysUsageDescription</key>
-  <string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için bluetooth servisleri ayarını açık tutman gerekiyor.</string>
-  <key>NSBluetoothPeripheralUsageDescription</key>
-  <string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için bluetooth servisleri ayarını açık tutman gerekiyor.</string>
-  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-  <string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için konum servisleri ayarını açık tutman gerekiyor.</string>
-  <key>NSLocationAlwaysUsageDescription</key>
-  <string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için konum servisleri ayarını açık tutman gerekiyor.</string>
-  <key>NSLocationUsageDescription</key>
-  <string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için konum servisleri ayarını açık tutman gerekiyor.</string>
-  <key>NSLocationWhenInUseUsageDescription</key>
-  <string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için konum servisleri ayarını açık tutman gerekiyor.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -38,16 +24,32 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
+	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için bluetooth servisleri ayarını açık tutman gerekiyor.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için bluetooth servisleri ayarını açık tutman gerekiyor.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için konum servisleri ayarını açık tutman gerekiyor.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için konum servisleri ayarını açık tutman gerekiyor.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için konum servisleri ayarını açık tutman gerekiyor.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>

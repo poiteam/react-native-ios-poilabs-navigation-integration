@@ -33,6 +33,9 @@ type SectionProps = PropsWithChildren<{
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
+
+  NativeModules.PoilabsAnalysisModule.startPoilabsAnalysis("APPLICATION_ID", "APPLICATION_SECRET", "UNIQUE_ID");
+
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };

@@ -23,6 +23,7 @@
 		AF22FFB02DA93FE60055DB37 /* PoilabsMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF22FFAD2DA93FE60055DB37 /* PoilabsMapManager.m */; };
 		AF22FFB12DA93FE60055DB37 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22FFAC2DA93FE60055DB37 /* NavigationView.swift */; };
 		AF22FFB22DA93FE60055DB37 /* PoilabsNavigationBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = AF22FFAF2DA93FE60055DB37 /* PoilabsNavigationBridge.m */; };
+		AF22FFB62DA96EF80055DB37 /* PoilabsAnalysisModule.m in Sources */ = {isa = PBXBuildFile; fileRef = AF22FFB52DA96EF40055DB37 /* PoilabsAnalysisModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		AF22FFAE2DA93FE60055DB37 /* PoilabsNavigationBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoilabsNavigationBridge.h; sourceTree = "<group>"; };
 		AF22FFAF2DA93FE60055DB37 /* PoilabsNavigationBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoilabsNavigationBridge.m; sourceTree = "<group>"; };
 		AF22FFB32DA93FE70055DB37 /* EmaarIntegration-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmaarIntegration-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF22FFB42DA96ED90055DB37 /* PoilabsAnalysisModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoilabsAnalysisModule.h; sourceTree = "<group>"; };
+		AF22FFB52DA96EF40055DB37 /* PoilabsAnalysisModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoilabsAnalysisModule.m; sourceTree = "<group>"; };
 		C4508FAF5093363A3EA285FE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = EmaarIntegration/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -130,6 +133,8 @@
 		13B07FAE1A68108700A75B9A /* EmaarIntegration */ = {
 			isa = PBXGroup;
 			children = (
+				AF22FFB52DA96EF40055DB37 /* PoilabsAnalysisModule.m */,
+				AF22FFB42DA96ED90055DB37 /* PoilabsAnalysisModule.h */,
 				AF22FFAC2DA93FE60055DB37 /* NavigationView.swift */,
 				AF22FFAD2DA93FE60055DB37 /* PoilabsMapManager.m */,
 				AF22FFAE2DA93FE60055DB37 /* PoilabsNavigationBridge.h */,
@@ -451,6 +456,7 @@
 				AF22FFB02DA93FE60055DB37 /* PoilabsMapManager.m in Sources */,
 				AF22FFB12DA93FE60055DB37 /* NavigationView.swift in Sources */,
 				AF22FFB22DA93FE60055DB37 /* PoilabsNavigationBridge.m in Sources */,
+				AF22FFB62DA96EF80055DB37 /* PoilabsAnalysisModule.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
