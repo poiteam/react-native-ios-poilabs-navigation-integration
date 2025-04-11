@@ -2,6 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>MGLMapboxMetricsEnabledSettingShownInApp</key>
+  <true/>
+  <key>NSBluetoothAlwaysUsageDescription</key>
+  <string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için bluetooth servisleri ayarını açık tutman gerekiyor.</string>
+  <key>NSBluetoothPeripheralUsageDescription</key>
+  <string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için bluetooth servisleri ayarını açık tutman gerekiyor.</string>
+  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+  <string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için konum servisleri ayarını açık tutman gerekiyor.</string>
+  <key>NSLocationAlwaysUsageDescription</key>
+  <string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için konum servisleri ayarını açık tutman gerekiyor.</string>
+  <key>NSLocationUsageDescription</key>
+  <string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için konum servisleri ayarını açık tutman gerekiyor.</string>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>AVM içerisinde kampanyalardan anlık haberdar olmak ve mağazalara yönlendirme almak için konum servisleri ayarını açık tutman gerekiyor.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
